@@ -19,4 +19,7 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/estadistica', 'HomeController@estadisticas');
+//ruta para crear nuevo equipo
 Route::post('/new_team', 'HomeController@new_team');

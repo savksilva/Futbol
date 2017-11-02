@@ -30,17 +30,14 @@ desired effect
 |---------------------------------------------------------|
 -->
 <body class="skin-blue sidebar-mini">
-<div class="wrapper">
+<div class="">
 
-    @include('layouts.partials.mainheader')
-
-    @include('layouts.partials.sidebar')
-
+    
+   
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
+    <div class="" style="margin-left: 0px;">
 
-        @include('layouts.partials.contentheader')
-
+       
         <!-- Main content -->
         <section class="content">
             <!-- Your Page Content Here -->
@@ -50,8 +47,7 @@ desired effect
 
     @include('layouts.partials.controlsidebar')
 
-    @include('layouts.partials.footer')
-
+  
 </div><!-- ./wrapper -->
 
 @section('scripts')
